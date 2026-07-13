@@ -1,0 +1,31 @@
+ /* Define o fundo da página como preto */
+        body {
+            background-color: #000000;
+            color: #ffffff; /* Texto padrão em branco para dar contraste com o fundo */
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        /* Estiliza os links do menu de navegação */
+        a {
+            color: #00eaff; /* Azul claro/neon para destacar os links no fundo preto */
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Define a cor do título como azul */
+        h1 {
+            color: #007bff; /* Azul vivo e moderno */
+        }
+
+        /* Garante que as imagens fiquem visíveis e bem ajustadas */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 15px;
+        }
